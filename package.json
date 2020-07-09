@@ -1,0 +1,32 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "A Simple Music Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsiderJanggo/cloud.git"
+  },
+  "keywords": [
+    "discordbot",
+    "music",
+    "bot",
+    "discord",
+    "bot"
+  ],
+  "author": "InsiderJanggo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InsiderJanggo/cloud/issues"
+  },
+  "homepage": "https://github.com/InsiderJanggo/cloud#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.1.2",
+    "ytdl-core-discord": "^1.2.1"
+  }
+}
