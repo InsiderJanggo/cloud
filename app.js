@@ -2,7 +2,7 @@ const discord = require('discord.js');
 const client = new discord.Client();
 const {TOKEN, PREFIX} = require("./config");
 const { Client, Collection } = require("discord.js");
-
+const fs = require('fs');
 client.commands = new Collection();
 client.aliases = new Collection();
 client.categories = fs.readdirSync("./commands/");
